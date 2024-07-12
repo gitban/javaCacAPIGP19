@@ -54,6 +54,7 @@
 
 /* Sección de la derecha Botones */
 .plant-button {
+    margin: 1em;
     background-color: #4caf50;
     color: #ffffff;
     border: none;

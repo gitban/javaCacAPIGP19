@@ -32,10 +32,12 @@ document.getElementById("login").addEventListener("submit", function (event) {
         })
         .then(function (data) {
             alert("¡ingresó correctamente al sistema correctamente!");
+            sessionStorage.setItem("logueado", true)
             window.location = "index.html";
         })
         .catch(function (error) {
             console.log("Error:", error);
             alert("Error al registrar usuario.");
+            sessionStorage.setItem("logueado", false)
         });
 });

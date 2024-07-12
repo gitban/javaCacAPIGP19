@@ -23,6 +23,10 @@ document.addEventListener("DOMContentLoaded", function () {
                             <a class="nav-link" href="#">Arboles</a>
                         </li>
                         <li class="nav-item">
+                        <li class="nav-item">
+                            <a class="nav-link" href="agregarespecie.html">Agregar Producto</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#">Huerta</a>
                         </li>
                         <li class="nav-item">
